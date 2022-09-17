@@ -7,3 +7,34 @@ body{
     --primary-color:#0891b2
 }
 
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centre{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+
+
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white ;
+    
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
