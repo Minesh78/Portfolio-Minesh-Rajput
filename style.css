@@ -6,6 +6,9 @@ body{
 :root{
     --primary-color:#0891b2
 }
+hr{
+    margin: 2rem 0rem;
+}
 
 .container{
     padding-left: 1rem;
@@ -37,4 +40,11 @@ body{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 2px solid var(--primary-color);
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display:inline-flex;
+    padding: 0rem 1rem ;
 }
