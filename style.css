@@ -2,9 +2,12 @@
 
 body{
     font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    
 }
 :root{
-    --primary-color:#0891b2
+    --primary-color:#0891b2;
+    --gray-color:#374151;
 }
 hr{
     margin: 2rem 0rem;
@@ -47,4 +50,46 @@ hr{
 .list-inline{
     display:inline-flex;
     padding: 0rem 1rem ;
+}
+.navigation{
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 1rem ;
+
+}
+
+.navigation .link{
+    color: white;
+}
+.nav-pills{
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
+.navigation.link-active{
+    font-weight: bold;
+}
+{
+    padding: 1rem;
+
+}
+.hero-image{
+    max-width: 500px;
+    max-height: fit-content;
+    display: block ;
+    margin: auto;
+    justify-content: center;
+}
+.hero-heading{
+    text-align: center;
+    color:var(--gray-color) ;
+    font-size: xx-large;
+}
+.hero-heading .WD{
+    color: var(--primary-color);
 }
