@@ -4,79 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/x-icon" href="Img/ProfilePictureMaker.png">
-    <meta name="viewport" content="width=S, initial-scale=1.0">
-    <title>Component library</title>
-    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Minesh's Component library</h1>
 
-    <p>I am attending neog.camp and want to make a library which would make all my projects look good and consitent.</p>
-    <hr>
-    <h2>@typograhy</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-
-    Let me show you the normal text.This is free flowing and will wrap at the end like a paragraph.
-
-    <small>This is relatively smaller text</small>
-    <hr>
-    <h2>@containers</h2>
-
-    <h3>fluid container</h3>
-    <div class="container container-fluid">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>Centre Container</h3>
-    <div class="container container-centre">This is a centered container and it will go till specified width</div>
-    <hr>
-
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="/"> Primary link</a>
-    <a class="link link-secondary" href="/">Secondary link</a>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <ul class="list-non-bullet">
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
-
-    <h3>Inline List</h3>
-    <ul class="list-non-bullet ">
-        <li class="list-inline">list item one</li>
-        <li class="list-inline">list item two</li>
-        <li class="list-inline">list item three</li>
-    </ul>
-    <h3>Ordered List </h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand">MINESH RAJPUT</div>
         <ul class="nav-pills">
             <li class="list-inline"><a class="link link-active" href="/">Home</a></li>
-            <li class="list-inline"><a class="link" href="/">about</a></li>
-            <li class="list-inline"><a class="link" href="/">product</a></li>
-            <li class="list-inline"><a class="link" href="/">contact us</a></li>
+            <li class="list-inline"><a class="link" href="/">About</a></li>
+            <li class="list-inline"><a class="link" href="/">Projects</a></li>
+            <li class="list-inline"><a class="link" href="/">Contacts </a></li>
         </ul>
-       
+
     </nav>
 
-    <h2 class="hero">@header </h2>
-    <img class="hero-image" src="Img/Hero.svg">
+    <header class="hero">
 
-    <h3 class="hero-heading">Minesh Rajput,<span class="WD"> Web Developer</span></h3>
+        <img class="hero-image" src="/Img/Hero.svg">
+
+        <h3 class="hero-heading">Minesh Rajput,<span class="WD"> Web Developer</span></h3>
+    </header>
+    <section class="section-ow">
+        <div class="container container-centre">
+            <h1>
+                TECHNOLOGIES
+            </h1>
+            <p>
+                I am good at HTML, CSS, JS, ReactJS, C, Cpp.
+                I am curently learning full stack Web Developement.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container container-centre">
+            <h1>
+                PROJECTS
+            </h1>
+            <p>
+                I am good at HTML, CSS, JS, ReactJS, C, Cpp.
+                I am curently learning full stack Web Developement.
+            </p>
+            <a class="link link-secondary" href="/">Browse Projects
+
+            </a>
+
+
+        </div>
+    </section>
 </body>
-
 
 </html>
