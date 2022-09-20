@@ -32,6 +32,9 @@ hr{
 
 
 }
+.link-active{
+    font-weight: bold;
+}
 
 .link-primary{
     background-color: var(--primary-color);
@@ -61,6 +64,7 @@ hr{
     font-size: 2rem;
     font-weight: 700;
     padding: 1rem 1rem ;
+    margin-left: 3rem;
 
 }
 
@@ -97,4 +101,20 @@ hr{
 
 .section-ow{
     background-color: var(--bg-gray);
+    padding-top: 2px;
+    padding-bottom: 1rem;
+}
+.section{
+    padding: 1rem ;
+}
+
+.footer{
+   
+    background-color: var(--primary-color)
+}
+
+.footer-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
 }
