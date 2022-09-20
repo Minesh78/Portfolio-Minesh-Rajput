@@ -110,7 +110,8 @@ hr{
 
 .footer{
    
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
+    padding-bottom: 2rem;
 }
 
 .footer-header{
