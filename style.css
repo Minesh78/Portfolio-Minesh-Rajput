@@ -84,8 +84,8 @@ hr{
 
 }
 .hero-image{
-    max-width: 500px;
-    max-height: fit-content;
+    max-width: 50%;
+    max-height: auto    ;
     display: block ;
     margin: auto;
     justify-content: center;
