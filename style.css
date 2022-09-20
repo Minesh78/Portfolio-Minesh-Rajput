@@ -1,119 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
-body{
+body {
     font-family: 'Kanit', sans-serif;
     margin: 0px;
-    
+
 }
-:root{
-    --primary-color:#0891b2;
-    --gray-color:#374151;
-    --bg-gray:#d1d5db;
+
+:root {
+    --primary-color: #0891b2;
+    --gray-color: #374151;
+    --bg-gray: #d1d5db;
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-centre{
+.container-centre {
     max-width: 600px;
     margin: auto;
 }
 
 /* links */
-.link{
+.link {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-decoration: none;
 
 
 }
-.link-active{
+
+.link-active {
     font-weight: bold;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white ;
-    
+    color: white;
+
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 2px solid var(--primary-color);
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
-.list-inline{
-    display:inline-flex;
-    padding: 0rem 1rem ;
+
+.list-inline {
+    display: inline-flex;
+    padding: 0rem 1rem;
 }
-.navigation{
+
+.navigation {
     background-color: var(--primary-color);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-size: 2rem;
     font-weight: 700;
-    padding: 1rem 1rem ;
+    padding: 1rem 1rem;
     margin-left: 3rem;
 
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
-.nav-pills{
+
+.nav-pills {
     text-align: right;
     padding-bottom: 1rem;
 }
 
-.navigation.link-active{
+.navigation.link-active {
     font-weight: bold;
 }
-{
+
+    {
     padding: 1rem;
 
 }
-.hero-image{
+
+.hero-image {
     max-width: 80%;
-    max-height: auto    ;
-    display: block ;
+    max-height: auto;
+    display: block;
     margin: auto;
     justify-content: center;
 }
-.hero-heading{
+
+.hero-heading {
     text-align: center;
-    color:var(--gray-color) ;
+    color: var(--gray-color);
     font-size: xx-large;
 }
-.hero-heading .WD{
+
+.hero-heading .WD {
     color: var(--primary-color);
 }
 
-.section-ow{
+.section-ow {
     background-color: var(--bg-gray);
     padding-bottom: 1rem;
 }
-.section{
-    padding-bottom: 1rem ;
+
+.section {
+    padding-bottom: 1rem;
 }
 
-.footer{
-   
+.footer {
+
     background-color: var(--primary-color);
-    padding-bottom: ;
+    padding-bottom: 1rem;
 }
 
-.footer-header{
+.footer-header {
     max-width: 600px;
     margin: auto;
     text-align: center;
