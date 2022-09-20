@@ -101,17 +101,16 @@ hr{
 
 .section-ow{
     background-color: var(--bg-gray);
-    padding-top: 2px;
     padding-bottom: 1rem;
 }
 .section{
-    padding: 1rem ;
+    padding-bottom: 1rem ;
 }
 
 .footer{
    
     background-color: var(--primary-color);
-    padding-bottom: 2rem;
+    padding-bottom: ;
 }
 
 .footer-header{
