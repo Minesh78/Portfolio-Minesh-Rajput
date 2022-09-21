@@ -3,6 +3,7 @@
 body {
     font-family: 'Kanit', sans-serif;
     margin: 0px;
+    overflow: hidden;
 
 }
 
@@ -132,4 +133,6 @@ hr {
     max-width: 600px;
     margin: auto;
     text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
